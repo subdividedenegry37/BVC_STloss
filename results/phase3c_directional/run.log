@@ -1,0 +1,60 @@
+14:09:09  phase3c start — contracts=['ES', 'NQ', 'RTY']
+14:09:09  [ES] loading …
+14:09:10  [ES] loaded 1,604,333 rows, 359,581 train-valid
+14:09:10  [ES] computing gate features …
+14:09:11  [ES] sessions in train-valid: 2,083
+14:09:11  [ES]  Gate A: n_pos_warmup=22,171  p95=1.6458  p70=1.1097
+14:09:11  [ES]  Gate B: n_pos_warmup=30,049  p95=2.5935  p70=1.1051
+14:09:11  [ES]  Gate C: n_pos_warmup=12,316  p95=2.9124  p70=1.2682
+14:09:11  [ES]  events A/primary   thr=1.6458  n_events=1,535
+14:09:11  [ES]  events A/secondary thr=1.1097  n_events=1,665
+14:09:11  [ES]  events B/primary   thr=2.5935  n_events=1,636
+14:09:11  [ES]  events B/secondary thr=1.1051  n_events=1,683
+14:09:11  [ES]  events C/primary   thr=2.9124  n_events=1,477
+14:09:11  [ES]  events C/secondary thr=1.2682  n_events=1,631
+14:09:11  [ES] computing forward returns …
+14:09:11  [ES] done in 1.9s
+14:09:11  [NQ] loading …
+14:09:12  [NQ] loaded 1,387,546 rows, 346,624 train-valid
+14:09:12  [NQ] computing gate features …
+14:09:12  [NQ] sessions in train-valid: 1,977
+14:09:12  [NQ]  Gate A: n_pos_warmup=23,700  p95=1.6775  p70=1.1337
+14:09:12  [NQ]  Gate B: n_pos_warmup=31,860  p95=2.6419  p70=1.1692
+14:09:12  [NQ]  Gate C: n_pos_warmup=12,702  p95=2.8710  p70=1.2684
+14:09:12  [NQ]  events A/primary   thr=1.6775  n_events=1,463
+14:09:12  [NQ]  events A/secondary thr=1.1337  n_events=1,556
+14:09:13  [NQ]  events B/primary   thr=2.6419  n_events=1,535
+14:09:13  [NQ]  events B/secondary thr=1.1692  n_events=1,569
+14:09:13  [NQ]  events C/primary   thr=2.8710  n_events=1,371
+14:09:13  [NQ]  events C/secondary thr=1.2684  n_events=1,528
+14:09:13  [NQ] computing forward returns …
+14:09:13  [NQ] done in 1.6s
+14:09:13  [RTY] loading …
+14:09:13  [RTY] loaded 675,791 rows, 324,875 train-valid
+14:09:13  [RTY] computing gate features …
+14:09:14  [RTY] sessions in train-valid: 1,794
+14:09:14  [RTY]  Gate A: n_pos_warmup=21,874  p95=1.6360  p70=1.1116
+14:09:14  [RTY]  Gate B: n_pos_warmup=29,300  p95=2.5840  p70=1.1502
+14:09:14  [RTY]  Gate C: n_pos_warmup=11,633  p95=2.9324  p70=1.3088
+14:09:14  [RTY]  events A/primary   thr=1.6360  n_events=1,410
+14:09:14  [RTY]  events A/secondary thr=1.1116  n_events=1,477
+14:09:14  [RTY]  events B/primary   thr=2.5840  n_events=1,468
+14:09:14  [RTY]  events B/secondary thr=1.1502  n_events=1,486
+14:09:14  [RTY]  events C/primary   thr=2.9324  n_events=1,327
+14:09:14  [RTY]  events C/secondary thr=1.3088  n_events=1,456
+14:09:14  [RTY] computing forward returns …
+14:09:14  [RTY] done in 1.2s
+14:09:14  sanity check (first 20 eval sessions, Gate A primary, h=1) …
+14:09:14    sanity ES: n_scored=14  acc=0.286
+14:09:14    sanity NQ: n_scored=14  acc=0.214
+14:09:14    sanity RTY: n_scored=17  acc=0.588
+14:09:14  SANITY CHECK FAILED — at least one contract < 0.45. Flagging but continuing so the failure is recorded in the report.
+14:09:14  pooled + bootstrap …
+14:09:14    pooled A/primary: n=4,249  acc=0.4825  boot=[0.4679, 0.4992]  z=-2.29
+14:09:14    pooled A/secondary: n=4,489  acc=0.4825  boot=[0.4685, 0.4968]  z=-2.34
+14:09:14    pooled B/primary: n=4,424  acc=0.4826  boot=[0.4690, 0.4968]  z=-2.32
+14:09:14    pooled B/secondary: n=4,511  acc=0.4808  boot=[0.4669, 0.4961]  z=-2.58
+14:09:14    pooled C/primary: n=4,021  acc=0.4825  boot=[0.4678, 0.4986]  z=-2.22
+14:09:14    pooled C/secondary: n=4,418  acc=0.4690  boot=[0.4547, 0.4830]  z=-4.12
+14:09:14  writing artifacts + report …
+14:09:14  done in 4.9s.  outputs in D:\BVC\runs\2026-04-19_phase3c_directional_test

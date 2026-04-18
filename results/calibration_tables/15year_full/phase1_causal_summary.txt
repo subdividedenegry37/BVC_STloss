@@ -1,0 +1,23 @@
+PHASE 1' CAUSAL CALIBRATION SUMMARY
+======================================================================
+
+LOCKED CAUSAL PARAMETERS ((causal, predictive)):
+
+  ES:  ν=2.344  loc=0.0089  scale=0.6532
+  NQ:  ν=2.445  loc=0.0133  scale=0.6691
+  RTY:  ν=3.058  loc=0.0087  scale=0.7514
+
+
+VALIDATION:
+  ES:
+    PIT KS = 0.1251
+    Shoulder PASS = False
+    Skew verdict:   SAMPLE ARTIFACT (sign flip) → symmetric t is correct
+  NQ:
+    PIT KS = 0.0797
+    Shoulder PASS = False
+    Skew verdict:   SAMPLE ARTIFACT (sign flip) → symmetric t is correct
+  RTY:
+    PIT KS = 0.0619
+    Shoulder PASS = True
+    Skew verdict:   SAMPLE ARTIFACT (sign flip) → symmetric t is correct

@@ -1,0 +1,60 @@
+{
+  "train_cutoff": "2020-01-01 00:00:00+00:00",
+  "results": [
+    {
+      "contract": "ES",
+      "path": "runs\\2026-04-18_physics_feature_expansion\\phase2_features_expanded_ES.pkl",
+      "n_total": 1604333,
+      "n_valid": 359581,
+      "n_in_window_post_cutoff": 645689,
+      "n_train_valid_bar": 359581,
+      "train_cutoff": "2020-01-01 00:00:00+00:00",
+      "expected_range": [
+        304000,
+        456000
+      ],
+      "expected_midpoint": 380000,
+      "deviation_pct_vs_midpoint": -5.37,
+      "within_20pct_tolerance": true,
+      "written": true,
+      "n_columns_after": 32
+    },
+    {
+      "contract": "NQ",
+      "path": "runs\\2026-04-18_physics_feature_expansion\\phase2_features_expanded_NQ.pkl",
+      "n_total": 1387546,
+      "n_valid": 811012,
+      "n_in_window_post_cutoff": 600514,
+      "n_train_valid_bar": 346624,
+      "train_cutoff": "2020-01-01 00:00:00+00:00",
+      "expected_range": [
+        360000,
+        600000
+      ],
+      "expected_midpoint": 475000,
+      "deviation_pct_vs_midpoint": -27.03,
+      "within_20pct_tolerance": false,
+      "written": true,
+      "n_columns_after": 32
+    },
+    {
+      "contract": "RTY",
+      "path": "runs\\2026-04-18_physics_feature_expansion\\phase2_features_expanded_RTY.pkl",
+      "n_total": 675791,
+      "n_valid": 423776,
+      "n_in_window_post_cutoff": 499981,
+      "n_train_valid_bar": 324875,
+      "train_cutoff": "2020-01-01 00:00:00+00:00",
+      "expected_range": [
+        264000,
+        456000
+      ],
+      "expected_midpoint": 355000,
+      "deviation_pct_vs_midpoint": -8.49,
+      "within_20pct_tolerance": true,
+      "written": true,
+      "n_columns_after": 32
+    }
+  ],
+  "any_out_of_tolerance": true
+}

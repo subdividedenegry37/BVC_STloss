@@ -1,0 +1,3 @@
+BOUNDARY DIAGNOSTIC: NQ
+Base sample (1,586,851 bars): ν=2.441, loc=0.0133, scale=0.6696
+Filtered sample (564,805 bars): ν=3.966, loc=0.0150, scale=0.7660

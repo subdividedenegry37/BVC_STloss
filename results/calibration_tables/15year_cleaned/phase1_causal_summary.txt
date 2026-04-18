@@ -1,0 +1,23 @@
+PHASE 1' CAUSAL CALIBRATION SUMMARY
+======================================================================
+
+LOCKED CAUSAL PARAMETERS ((causal, predictive)):
+
+  ES:  ν=4.929  loc=0.0111  scale=0.8571
+  NQ:  ν=4.426  loc=0.0155  scale=0.8506
+  RTY:  ν=4.492  loc=0.0109  scale=0.8851
+
+
+VALIDATION:
+  ES:
+    PIT KS = 0.0603
+    Shoulder PASS = True
+    Skew verdict:   MODERATE — symmetric t acceptable
+  NQ:
+    PIT KS = 0.0253
+    Shoulder PASS = True
+    Skew verdict:   MODERATE — symmetric t acceptable
+  RTY:
+    PIT KS = 0.0251
+    Shoulder PASS = True
+    Skew verdict:   MODERATE — symmetric t acceptable

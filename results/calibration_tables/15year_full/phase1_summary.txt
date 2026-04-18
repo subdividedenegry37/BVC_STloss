@@ -1,0 +1,12 @@
+PHASE 1 CALIBRATION SUMMARY (concurrent σ, descriptive)
+======================================================================
+
+ES:  ν=2.969  loc=0.0088  scale=0.7050
+       PIT KS=0.1247  Shoulder max|ΔF|=0.0115  Split-half STABLE=True
+
+NQ:  ν=3.148  loc=0.0132  scale=0.7200
+       PIT KS=0.0792  Shoulder max|ΔF|=0.0099  Split-half STABLE=False
+
+RTY:  ν=4.196  loc=0.0077  scale=0.8028
+       PIT KS=0.0625  Shoulder max|ΔF|=0.0072  Split-half STABLE=False
+
