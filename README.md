@@ -3,7 +3,7 @@
 Companion code and result artifacts for the methodology paper on
 Student-t Bulk Volume Classification (BVC) applied to 5-minute OHLCV
 bars of CME equity index futures (ES, NQ, RTY).
-
+![Rolling Student-t degrees-of-freedom ν across ES, NQ, RTY](results/regime_break/rolling_nu.png)
 ## Scope
 
 This repository implements the full OHLCV-only pipeline described in the
@@ -95,6 +95,8 @@ Individual stages can also be run directly from `src/`; see
   across break-date sensitivity, rolling-window, and
   monthly-stabilization analyses. See
   `results/regime_break/PHASE1_LOCK_FINAL.md`.
+
+  ![Per-year ν estimates for ES](results/regime_break/es_per_year_nu.png)
 - **Volatility prediction.** The 14-feature physics set delivers a
   consistent improvement over the causal Garman-Klass baseline on
   walk-forward MSE. See `results/stage1_volatility/STAGE1_RESULTS.md`.
@@ -120,15 +122,3 @@ input data and Python environment.
 ## License
 
 MIT. See `LICENSE`.
-
-## Citation
-
-If you use this code or the accompanying paper, please cite:
-
-```
-@article{bvc_student_t_2026,
-  title  = {Student-t Bulk Volume Classification for Equity Index Futures},
-  year   = {2026},
-  note   = {Preprint; companion code at this repository.}
-}
-```
