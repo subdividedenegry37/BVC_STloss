@@ -1,12 +1,12 @@
 # Student-t Bulk Volume Classification for Equity Index Futures
 
-Companion code and result artifacts for the methodology paper on
-Student-t Bulk Volume Classification (BVC) applied to 5-minute OHLCV
-bars of CME equity index futures (ES, NQ, RTY).
+Companion code and artifacts for a methodology paper on
+Student-t adapted Bulk Volume Classification (BVC). Applied to 5-minute OHLCV
+bars of CME equity index futures (ES, NQ, RTY). Regime Classifier proved to be robust however directional signal was absent from all results. 
 ![Rolling Student-t degrees-of-freedom ν across ES, NQ, RTY](results/regime_break/rolling_nu.png)
 ## Scope
 
-This repository implements the full OHLCV-only pipeline described in the
+This repository implements the full OHLCV-only pipeline that will be described in the
 paper:
 
 1. **Student-t BVC estimator** (`src/features/student_t_bvc.py`) — a
